@@ -1,0 +1,56 @@
+sort1 uses: bubble
+
+How do you know?:
+
+For reverse:
+For an array of 5 elements;
+Selection sort will go through 3 iterations until solved.
+Bubble sort will go through 21 iterations until solved.
+Merge sort will go through 10 iterations until solved.
+Selection sort has the fastest reverse list solve time, bubble sort is the slowest.
+
+sort1 random5000: real time = 0m0.114s
+sort1 random10000: real time = 0m0.463s
+sort1 random50000: real time = 0m14.830s
+sort1 reverse5000: real time = 0m0.071s
+sort1 reverse10000: real time = 0m0.411s
+sort1 reverse50000: real time = 0m12.900s
+
+
+
+sort2 uses: merge
+
+How do you know?:
+
+For reverse:
+For an array of 5 elements;
+Selection sort will go through 3 iterations until solved.
+Bubble sort will go through 21 iterations until solved.
+Merge sort will go through 10 iterations until solved.
+Selection sort has the fastest reverse list solve time, bubble sort is the slowest.
+
+sort2 random5000: real time = 0m0.010s
+sort2 random10000: real time = 0m0.096s
+sort2 random50000: real time = 0m2.608s
+sort2 reverse5000: real time = 0m0.011s
+sort2 reverse10000: real time = 0m0.022s
+sort2 reverse50000: real time = 0m3.459s
+
+sort3 uses: selection
+
+How do you know?:
+
+For reverse:
+For an array of 5 elements;
+Selection sort will go through 3 iterations until solved.
+Bubble sort will go through 21 iterations until solved.
+Merge sort will go through 10 iterations until solved.
+Selection sort has the fastest reverse list solve time, bubble sort is the slowest.
+
+sort3 random5000: real time = 0m0.033s
+sort3 random10000: real time = 0m0.229s
+sort3 random50000: real time = 0m8.063s
+sort3 reverse5000: real time = 0m0.034s
+sort3 reverse10000: real time = 0m0.195s
+sort3 reverse50000: real time = 0m7.041s
+
